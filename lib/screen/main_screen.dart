@@ -40,7 +40,7 @@ class MainScreen extends StatelessWidget {
                   ),
                 ]),
             Container(
-              color: const Color.fromARGB(255, 6, 52, 90),
+              color: Color.fromRGBO(6, 52, 90, 1),
               child: const Padding(
                 padding: EdgeInsets.all(13.0),
                 child: Row(

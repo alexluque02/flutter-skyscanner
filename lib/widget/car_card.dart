@@ -162,8 +162,16 @@ class CarCard extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) =>
-                                          const DetailsScreen()),
+                                      builder: (context) => DetailsScreen(
+                                          modelo: modelo,
+                                          capacidad: capacidad,
+                                          manual: manual,
+                                          precio: precio,
+                                          puertas: puertas,
+                                          tipoCoche: tipoCoche,
+                                          numOfertas: numOfertas,
+                                          textoOferta: textoOferta,
+                                          urlImagen: urlImagen)),
                                 );
                               },
                               child: const Text(
